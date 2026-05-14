@@ -1,460 +1,940 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="/css/normalize.css">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="stylesheet" href="/css/style.css">
-        <link
-            href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300;1,600&display=swap"
-            rel="stylesheet">
-            <script src="https://kit.fontawesome.com/d8cdc5005b.js" crossorigin="anonymous"></script>
-        <title>Mario Jhaziel Cortez Cortes</title>
-    </head>
-    <body>
-        <header class="hero">
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="/css/normalize.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300;1,600&display=swap"
+        rel="stylesheet" />
+
+    <script src="https://kit.fontawesome.com/d8cdc5005b.js" crossorigin="anonymous"></script>
+
+    <title>Mario Jhaziel Cortez Cortes</title>
+</head>
+
+<body>
+    <header class="hero">
+        <div class="container">
+            <nav class="nav">
+                <a href="#misSkills" class="nav__items nav__items--cta">
+                    Mis Skills
+                </a>
+
+                <a href="#sobreMi" class="nav__items">Sobre Mi</a>
+
+                <a href="#proyectos" class="nav__items">Proyectos</a>
+            </nav>
+
+            <section class="hero__container">
+                <div class="hero__text">
+                    <h1 class="hero_title">
+                        Hola! Soy Mario Cortez [Frontend & Móvil Developer]
+                    </h1>
+
+                    <h2 class="hero__subtitle">
+                        Desarrollo aplicaciones web y móviles modernas enfocadas en
+                        rendimiento, escalabilidad y experiencia de usuario
+                    </h2>
+
+                    <a href="https://www.facebook.com/mario.cortezcortes/" target="_blank" class="hero__cta">
+                        Contactame Ahora
+                    </a>
+                </div>
+            </section>
+        </div>
+
+        <div class="hero__wave" overflow: hidden>
+            <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%">
+                <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                    style="stroke: none; fill: #fff"></path>
+            </svg>
+        </div>
+    </header>
+
+    <main>
+        <!-- PRESENTACION -->
+
+        <section class="presentation container">
+            <img src="/img/Perfil2.jpg" alt="perfil" class="presentation__picture" />
+
+            <h2 class="subtitle">
+                Mi Nombre es: Mario Jhaziel Cortez Cortes
+            </h2>
+
+            <p class="presentation__copy">
+                Lic en Sistemas Computacionales y desarrollador Frontend &
+                Móvil apasionado por la creación de soluciones tecnológicas modernas.
+                Cuento con experiencia desarrollando aplicaciones web, móviles y
+                sistemas administrativos utilizando tecnologías como React, Next.js,
+                React Native, TypeScript y Firebase. Me caracterizo por ser
+                autodidacta, proactivo y por mantener un aprendizaje constante para
+                seguir evolucionando profesionalmente.
+            </p>
+
+            <a target="_blank" class="presentation__cta" id="cv">
+                Mostrar CV
+            </a>
+        </section>
+
+        <!-- SOBRE MI -->
+
+        <section class="about container">
+            <div class="about__texts">
+                <h2 class="subtitle" id="misSkills">Mis Habilidades</h2>
+
+                <p class="about__paragraph interlinidado mb">
+                    Comencé en el mundo de la tecnología desde muy joven, iniciando como
+                    un hobby y evolucionando hasta desarrollar proyectos reales y
+                    soluciones completas. Actualmente tengo experiencia en desarrollo
+                    Frontend y Móvil utilizando HTML5, CSS3, JavaScript, TypeScript,
+                    React, Next.tsx, React Native, Firebase, Leaflet, Google Maps Api Places, Opencage y tengo
+                    conocimientos de Express y
+                    PostgreSQL.
+                </p>
+
+                <p class="about__paragraph interlinidado mb">
+                    También cuento con experiencia trabajando con APIs REST,
+                    autenticación, dashboards administrativos, mapas interactivos,
+                    almacenamiento en la nube y arquitectura moderna de aplicaciones.
+                    Gran parte de mis conocimientos los adquirí de manera autodidacta
+                    mediante documentación oficial, cursos especializados y práctica
+                    constante en proyectos reales.
+                </p>
+
+                <p>
+                    Especializado en desarrollo Frontend y Móvil, enfocado en crear
+                    aplicaciones modernas, escalables y funcionales.
+                </p>
+            </div>
+
+            <figure class="about__img">
+                <img src="/img/about1.png" alt="" class="about__picture about__img--left" />
+            </figure>
+
+            <figure class="about__img">
+                <img src="/img/about.png" alt="" class="about__picture" />
+            </figure>
+
+            <!-- INFORMACION -->
+
+            <div class="about__text">
+                <h2 class="subtitle" id="sobreMi">
+                    Información Sobre Mi
+                </h2>
+
+                <ul class="about__text">
+                    <li class="mb">
+                        <b>Nombre:</b> Mario Jhaziel Cortez Cortes
+                    </li>
+
+                    <li class="mb">
+                        <b>Dirección:</b> Acapulco, Guerrero
+                    </li>
+
+                    <li class="mb">
+                        <b>Correo:</b> mariojhaziel25@gmail.com
+                    </li>
+
+                    <li class="mb">
+                        <b>Celular:</b> 7445288302
+                    </li>
+
+                    <li class="mb">
+                        <b>Carrera:</b> Lic. en Sistemas Computacionales
+                    </li>
+
+                    <li class="mb">
+                        <b>Especialidad:</b> Desarrollo Frontend y Móvil
+                    </li>
+
+                    <li class="mb">
+                        <b>Tecnologías:</b> React, React Native, Next.js, Firebase
+                    </li>
+
+                    <li class="mb">
+                        <b>Cambio de Residencia:</b> Sí
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- PROYECTOS -->
+
+        <section class="projects">
             <div class="container">
-                <nav class="nav">
-                    <a href="#misSkills" class="nav__items nav__items--cta">Mis
-                        Skills</a>
-                    <a href="#sobreMi" class="nav__items">Sobre Mi</a>
-                    <a href="#proyectos" class="nav__items">Proyectos</a>
-                </nav>
-                <section class="hero__container">
-                    <div class="hero__text">
-                        <h1 class="hero_title">Hola! Soy Mario Cortez [Frontend
-                            Developer]</h1>
-                        <h2 class="hero__subtitle">Transformando ideas a
-                            realidades</h2>
-                        <a href="https://www.facebook.com/mario.cortezcortes/"
-                            target="_blank" class="hero__cta">Contactame Ahora</a>
-                    </div>
-                </section>
-            </div>
-            <div class="hero__wave" overflow: hidden;><svg viewBox="0 0 500
-                    150" preserveAspectRatio="none" style="height: 100%; width:
-                    100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98
-                        500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
-                        style="stroke: none; fill: #fff;"></path></svg></div>
-        </header>
-        <main>
-            <section class="presentation container">
-                <img src="/img/Perfil2.jpg" alt="perfil"
-                    class="presentation__picture">
-                <h2 class="subtitle">Mi Nombre es: Mario Jhaziel Cortez Cortes</h2>
-                <p class="presentation__copy">Desarrollador Frontend apasionado
-                    por las tecnologías que revolucionan nuestro entorno.
-                    Entusiasta proactivo, con un deseo inagotable de adquirir
-                    más conocimientos día a día, ya que cada día cuenta y es un
-                    paso más para aumentar mis conocimientos, mejorar en los ya
-                    obtenidos y crecer profesionalmente</p>
-                <a target="_blank" class="presentation__cta" id="cv">Mostrar CV</a>
-            </section>
-            <section class="about container">
-                <div class="about__texts">
-                    <h2 class="subtitle" id="misSkills">Mis Habilidades</h2>
-                    <p class="about__paragraph interlinidado mb">Desarrollador
-                        de sitios web Frontend, Empecé en el mundo de la
-                        tecnología cuando tenía 12 años, pero no fue hasta
-                        llegar
-                        a los 17 años cuando paso de ser tan solo un hobby a
-                        aprender de cursos más formales del mundo real siguiendo
-                        rutas de aprendizaje en los cuales logre obtener el
-                        dominio de los siguientes lenguajes: HTML, CSS3, Java
-                        Script, Typescript y cuento con experiencia en React entre ello también tengo conocimientos de
-                        GIT el sistema de control de
-                        versiones más popular de los últimos años.</p>
-                    <p class="about__paragraph interlinidado mb">Siempre me he
-                        destacado por ser uno de los alumnos con mas conocimiento ámbito tecnológico, gran parte
-                        de mis conocimientos los
-                        obtuve de forma autodidacta con cursos de diversas
-                        plataformas tales como Udemy, Platzi, YouTube, pero en
-                        un principio leyendo libros y
-                        actualmente me encuentro estudiando la Licenciatura en
-                        Sistemas Computacionales.</p>
-                    <p>Especializado en Desarrollo Frontend, abierto aprender nuevas tecnologias.</p>
-                </div>
+                <h2 class="subtitle" id="proyectos">
+                    Mis Proyectos
+                </h2>
 
-                <figure class="about__img">
-                    <img src="/img/about1.png" alt="" class="about__picture
-                        about__img--left">
+                <div class="projects__grid">
+                    <article class="projects__item">
+                        <a href="https://cafe-de-mario.netlify.app/" target="_blank">
+                            <img src="/img/trabajos/7.jpg" alt="projecto1" class="projects__img" />
 
-                </figure>
-                <figute class="about__img">
-                    <img src="/img/about.png" alt="" class="about__picture">
-                </figute>
+                            <div class="projects__hover">
+                                <h2 class="projects__title">
+                                    Blog Café | HTML5 & CSS3
+                                </h2>
 
-                <div class="about__text">
-                    <h2 class="subtitle" id="sobreMi">Informacion Sobre Mi</h2>
-                    <ul class="about__text">
-                        <li class="mb"><b>Nombre:</b> Mario Jhaziel Cortez
-                            Cortes</li>
-                        <!-- <li class="mb"><b>Fecha de Nacimiento:</b> 25 de Abril -->
-                        <!-- del 2002</li> -->
-                        <li class="mb"><b>Direccion:</b> Acapulco, Guerrero</li>
-                        <li class="mb"><b>Correo:</b> mariojhaziel25@gmail.com
-                        </li>
-                        <li class="mb"><b>Celular:</b> 7445288302</li>
-                        <li class="mb"><b>Cursando Carrera:</b> Lic. Sistemas
-                            Computacionales</li>
-                        <li class="mb"><b>Grado de Estudio:</b> Bachillerato</li>
-                        <li class="mb"><b>Especialidad:</b> Tecnico Programador</li>
-                        <li class="mb"><b>Cambio de Residencia:</b> Si</li>
-                    </ul>
-
-                </div>
-            </section>
-            <section class="projects"><div class="container">
-                    <h2 class="subtitle" id="proyectos">Mis Proyectos</h2>
-                    <div class="projects__grid">
-
-                        <article class="projects__item">
-                            <a href="https://cafe-de-mario.netlify.app/"
-                                target="_blank">
-                                <img src="/img/trabajos/7.jpg" alt="projecto1"
-                                    class="projects__img">
-                                <div class="projects__hover">
-                                    <h2 class="projects__title">Blog Cafe, HTML5, CSS3</h2>
-                                    <i class="far fa-file-alt projects__icon"></i>
-                                </div>
-                            </a>
-                        </article>
-                        <article class="projects__item">
-                            <a
-                                href="https://ipnjfiladelfia.com/"
-                                target="_blank">
-                                <img src="/img/trabajos/1.png" alt="projecto1"
-                                    class="projects__img">
-                                <div class="projects__hover">
-                                    <h2 class="projects__title">React Typescript y MongoDB</h2>
-                                    <i class="far fa-file-alt projects__icon"></i>
-                                </div>
-                            </a>
-                        </article>
-                        
-
-                        <article class="projects__item">
-                            <a
-                                href="https://friendstore-mario-jhaziel.netlify.app/"
-                                target="_blank">
-                                <img src="/img/trabajos/6.jpg" alt="projecto1"
-                                    class="projects__img">
-                                <div class="projects__hover">
-                                    <h2 class="projects__title">HTML5, CSS3 Y JS</h2>
-                                    <i class="far fa-file-alt projects__icon"></i>
-                                </div>
-                            </a>
-                        </article>
-                       
-                        
-
-
-
-                  
-                        <article class="projects__item">
-                            <a
-                                href="https://mario-cortez-cotizador.netlify.app/"
-                                target="_blank">
-                                <img src="/img/trabajos/3.jpg" alt="projecto1"
-                                    class="projects__img">
-                                <div class="projects__hover">
-                                    <h2 class="projects__title">React JS</h2>
-                                    <i class="far fa-file-alt projects__icon"></i>
-                                </div>
-                            </a>
-                        </article>
-                        <article class="projects__item">
-                            <a
-                                href="https://mario-cortes-macbook-m1.netlify.app/"
-                                target="_blank">
-                                <img src="/img/trabajos/8.jpg" alt="projecto1"
-                                    class="projects__img">
-                                <div class="projects__hover">
-                                    <h2 class="projects__title">Macbook M1, HTML5, CSS3</h2>
-                                    <i class="far fa-file-alt projects__icon"></i>
-                                </div>
-                            </a>
-                        </article>
-
-
-
-                      
-
-
-
-                    </div>
-                </div>
-            </section>
-            <section class="testimony container">
-                <h2 class="subtitle">Algunos de los Ultimos Cursos Realizados</h2>
-                <div class="testimony__grid">
-                    <article class="testimony__item">
-                        <div class="testimony__person">
-                            <img src="/img/certificado1.jpg"
-                                alt="Certificado"
-                                class="testimony__img">
-
-                        </div>
-                    </article>
-                    <article class="testimony__item">
-                        <div class="testimony__person">
-                            <img src="/img/certificado2.jpg" alt="Certificado"
-                                class="testimony__img">
-
-                        </div>
-                    </article>
-                    <article class="testimony__item">
-                        <div class="testimony__person">
-                            <img src="/img/certificado3.jpg" alt="Certificado"
-                                class="testimony__img">
-
-                        </div>
-                    </article>
-                    <article class="testimony__item">
-                        <div class="testimony__person">
-                            <img src="/img/certificado4.jpg" alt="Certificado"
-                                class="testimony__img">
-
-                        </div>
-                    </article>
-                </div>
-            </section>
-        </main>
-
-        <footer class="footer">
-            <div class="container footer__grid">
-                <nav class="nav nav--footer">
-                    <a class="nav__items nav__items--footer" href="#">Inicio</a>
-                    <a class="nav__items nav__items--footer" href="#sobreMi">Sobre
-                        mi</a>
-                    <a class="nav__items nav__items--footer" href="#misSkills">Mis
-                        skills</a>
-                    <a class="nav__items nav__items--footer" href="#proyectos">Proyecto</a>
-                </nav>
-                <section class="footer__contact">
-                    <h3 class="footer__title">Contactame</h3>
-                    <div class="footer__icons">
-                        <span class="footer__container-icon">
-
-                            <a
-                                href="https://www.facebook.com/mario.cortezcortes/"
-                                class="fab fa-facebook footer__icon"
-                                target="_blank"></a>
-                        </span>
-                        <span class="footer__container-icon">
-                            <a href="https://wa.me/527445288302" class="fab
-                                fa-whatsapp footer__icon" target="_blank"> </a>
-                        </span>
-                        <span class="footer__container-icon">
-                            <a
-                                href="https://github.com/Mario1613?tab=repositories"
-                                class="fab fa-github footer__icon"
-                                target="_blank"></a>
-                        </span>
-                    </div>
-                </section>
-            </div>
-        </footer>
-
-
-
-
-        <section class="modal">
-            <div class="modal__container">
-                <div class="documento">
-                    <aside class="bg__azul">
-                        
-                        <img src="/img/Perfil2.jpg" class="modal__img">
-                        <div class="bg__azul__ocultar">
-                            <hr/>
-                            <div class="tecnologias">
-                                <section class="color">
-                                    <div class="flex-row-bg">
-                                        <i class="far fa-solid fa-user"></i>
-                                        <p class="blanco espacio">Informacion Personal</p>
-                                    </div>
-                                    
-                                </section>
-
-                                <section class="color">
-                                    <div class="flex-row-bg">
-                                        <i class="far fa-solid fa-house"></i>
-                                        <p class="blanco espacio">Acapulco de Juarez, GRO </p>
-                                    </div>
-                                    
-                                </section>
-
-                                <section class="color">
-                                    <div class="flex-row-bg">
-                                        <i class="far fa-solid fa-envelope"></i>
-                                        <p class="blanco espacio correo">mariojhaziel25@gmail.com</p>
-                                    </div>
-                                    
-                                </section>
-                                <section class="color">
-                                    <div class="flex-row-bg">
-                                        <i class="far fa-solid fa-mobile"></i>
-                                        <p class="blanco espacio">7445288302</p>
-                                    </div>
-                                    
-                                </section>
-
-                                <hr/>
-                                <section class="color">
-                                    <div class="flex-row-bg">
-                                        <i class="far fa-solid fa-circle-check"></i>
-                                        <p class="blanco espacio">Habilidades y Conocimientos </p>
-                                     
-                                    </div>
-                                    <br>
-                                    <ul class="about__text">
-                                        <li class="mb punto">FRONTEND</li>
-                                        <li class="mb punto">HTML5</li>
-                                        <li class="mb punto">CSS3</li>
-                                        <li class="mb punto">JAVASCRIPT</li>
-                                        <li class="mb punto">REACT</li>
-                                        <li class="mb punto">TYPESCRIPT</li>
-                                        <li class="mb punto">STRAPI</li>
-                                        <li class="mb punto">GIT</li>
-                                        <li class="mb punto">GITHUB</li>
-                                        
-                                    </ul>
-                
-                                </section>
-                                <hr/>
-                                <section class="color">
-                                    <div class="flex-row-bg">
-                                        <i class="far fa-solid fa-angles-down"></i>
-                                        <p class="blanco espacio"> 
-                                            Idiomas y Software </p>
-                                     
-                                    </div>
-                                    <br>
-                                    <ul class="about__text">
-                                        <li class="mb punto">Español</li>
-                                        <li class="mb punto">Leer en ingles y en proceso</li>
-                                        <li class="mb punto">VS Code</li>
-                                        <li class="mb punto">CMD</li>
-                                        <li class="mb punto">STYLED COMPONENT</li>
-                                        <li class="mb punto">Terminal Linux</li>
-                        
-                                        
-                                    </ul>
-                
-                                </section>
-                               
-
-
+                                <i class="far fa-file-alt projects__icon"></i>
                             </div>
+                        </a>
+                    </article>
 
+                    <article class="projects__item">
+                        <a href="https://ipnjfiladelfia.com/" target="_blank">
+                            <img src="/img/trabajos/1.png" alt="projecto1" class="projects__img" />
 
-                        </div>
-                    </aside>
-                    <div class="bg__info">
-                        <section>
-                            <h2 class="modal__title">MARIO JHAZIEL CORTEZ CORTES</h2>
-                            <h3 class="carrera">Sistemas Computacionales</h3>
-                            <p class="parrafo__cv">Desarrollador Front end
-                                apasionado por las tecnologías que revolucionan
-                                nuestro
-                                entorno. Entusiasta proactivo, con un deseo
-                                inagotable de adquirir más conocimientos
-                                día a día, ya que cada día cuenta y es un paso más
-                                para aumentar mis conocimientos,
-                                mejorar en los ya obtenidos y crecer
-                                profesionalmente</p>
-                               
-                            <hr/>
-                            
+                            <div class="projects__hover">
+                                <h2 class="projects__title">
+                                    React TypeScript & MongoDB
+                                </h2>
 
-                        
-
-                        
-                            <div class="flex-row">
-                                <i class="fas fa-graduation-cap"></i>
-                                <h3 class="sub__titulo">FORMACIÓN ACADÉMICA</h3>
+                                <i class="far fa-file-alt projects__icon"></i>
                             </div>
-                            <p class="sub__anios">2021 En curso</p>
-                            <p class="parrafo__cv">ING. Sistemas Computacionales |
-                                Universidad Español Universidad Privada de paga
-                                Elegida por que se encuentran maestros con
-                                experiencia en el campo laborar y logran tener
-                                conocimientos actualizados</p>
-                            <p class="sub__anios">2018 – 2021 </p>
-                            <p class="parrafo__cv">Técnico Programador| CECYTEG 04
-                                Coloso Acapulco</p>
+                        </a>
+                    </article>
 
-                            <p class="sub__anios">
-                                2019 – Nunca se para de aprender
-                            </p>
-                            <div class="parrafo__cv">
-                                <p >Udemy | Udemy  </p>
-                                
-                                <p class="letras__chicas">
-                                    Cursos de paga en Udemy entre otros gratuitos de
-                                    plataformas como YouTube </p>
+                    <article class="projects__item">
+                        <a href="https://friendstore-mario-jhaziel.netlify.app/" target="_blank">
+                            <img src="/img/trabajos/6.jpg" alt="projecto1" class="projects__img" />
+
+                            <div class="projects__hover">
+                                <h2 class="projects__title">
+                                    HTML5, CSS3 & JavaScript
+                                </h2>
+
+                                <i class="far fa-file-alt projects__icon"></i>
                             </div>
-                            <hr/>
-                            <div class="flex-row">
-                                <i class="fas fa-briefcase"></i>
-                                <h3 class="sub__titulo">EXPERIENCIA PROFECIONAL</h3>
+                        </a>
+                    </article>
+
+                    <article class="projects__item">
+                        <a href="https://mario-cortez-cotizador.netlify.app/" target="_blank">
+                            <img src="/img/trabajos/3.jpg" alt="projecto1" class="projects__img" />
+
+                            <div class="projects__hover">
+                                <h2 class="projects__title">React JS</h2>
+
+                                <i class="far fa-file-alt projects__icon"></i>
                             </div>
-                            <article>
-                                <p class="sub__anios">2022 de Marzo </p>
-                                <p class="parrafo__cv">Fullstack | Iglesia Pentecostal del Nombre Jesús Philadelphia</p>
-                                <p class="letras__chicas">Estuve desarrollando un blog para un cliente de Philadelphia en el cual desarrolle el proyecto de inicio a fin con los diseños que previamente ya había desarrollado a la medida del cliente, desarrolle el frontend y el backend e hice el deployment, el proyecto lo realice en React Typescript porque previamente menciono que con el tiempo iba implementar más cosas y lo desarrolle con componentes para la reutilización de código a un futuro ya que React es lo mejor cuando se trata de reutilización de código y es el framework que más domino.  </p>
-                                <ul class="letras__chicas top__espacio">
-                                    <li class="margen-izquierdo">Actividad 1. Analice los requerimientos del cliente. </li>
-                                    <li class="margen-izquierdo">Actividad 2. Diseñe el boceto en adobe XD.</li>
-                                    <li class="margen-izquierdo">Actividad 3. Desarrolle el Backend con el CMS Strapi y MongoDB.
-                                    </li>
-                                    <li class="margen-izquierdo">Actividad 4. Desarrolle el Frontend con React Typescript, CSS3 y styled Component.</li>
-                                    <li class="margen-izquierdo">Actividad 5. Consumí las APIS en el Frontend con useEffect.
-                                    </li>
-                                    <li class="margen-izquierdo">Actividad 6.. Las Rutas las maneje con React Router DOM.
-                                    </li>
-                            
-                                </ul>
+                        </a>
+                    </article>
 
-                            </article>
-                            <article>
-                                <p class="sub__anios">2019 hasta 20 marzo 2020  </p>
-                                <p class="parrafo__cv">Frontend | Institución CECYTEG 04 </p>
-                                <p class="letras__chicas">Estuve trabajando desarrollador en un proyecto que estaba en fase de prueba antes
-                                    de la pandemia, faltaba poco para producción, en el cual desarrollaba el frontend, implementaba funciones y consumía la
-                                    API que el encargado del backend otorgaba para a si mostrar los datos de los usuarios de una
-                                    manera agradable. </p>
-                                <ul class="letras__chicas top__espacio">
-                                    <li class="margen-izquierdo">Actividad 1. Desarrollaba el frontend que el encargado del diseño me otorgaba. </li>
-                                    <li class="margen-izquierdo">Actividad 2. Solucionaba bugs.</li>
-                                    <li class="margen-izquierdo">Actividad 3. Hacia refactoring al código existente, "Solo si era muy necesario".
-                                    </li>
-                                    <li class="margen-izquierdo">Actividad 4. Implementaba nuevas funciones y soluciones al JS. 
-                                    </li>
-                                    <li class="margen-izquierdo">Actividad 5. Consumía las APIS que el backend me otorgaba.
-                                    </li>
-                            
-                                </ul>
+                    <article class="projects__item">
+                        <a href="https://mario-cortes-macbook-m1.netlify.app/" target="_blank">
+                            <img src="/img/trabajos/8.jpg" alt="projecto1" class="projects__img" />
 
-                            </article>
-                            
-                        </section>
-                        <hr/>
-                      
-                    </div>
-                </div>
-                
-                
-                <div class="right">
-                    <a href="https://drive.google.com/file/d/1FL-NTmjr238Y8WlSOXie2KaV_L363Z3G/view?usp=sharing" class="descargar">Descargar</a>
-                    <a href="#" class="modal__close">Cerrar</a>
-    
+                            <div class="projects__hover">
+                                <h2 class="projects__title">
+                                    Landing Page Macbook M1
+                                </h2>
+
+                                <i class="far fa-file-alt projects__icon"></i>
+                            </div>
+                        </a>
+                    </article>
                 </div>
             </div>
         </section>
-        <script src="js/main.js"></script>
-    </body>
+
+        <!-- CURSOS -->
+
+        <section class="testimony container">
+            <h2 class="subtitle">
+                Algunos de los Últimos Cursos Realizados
+            </h2>
+
+            <div class="testimony__grid">
+                <article class="testimony__item">
+                    <div class="testimony__person">
+                        <img src="/img/certificado1.jpg" alt="Certificado" class="testimony__img" />
+                    </div>
+                </article>
+
+                <article class="testimony__item">
+                    <div class="testimony__person">
+                        <img src="/img/certificado2.jpg" alt="Certificado" class="testimony__img" />
+                    </div>
+                </article>
+
+                <article class="testimony__item">
+                    <div class="testimony__person">
+                        <img src="/img/certificado3.jpg" alt="Certificado" class="testimony__img" />
+                    </div>
+                </article>
+
+                <article class="testimony__item">
+                    <div class="testimony__person">
+                        <img src="/img/certificado4.jpg" alt="Certificado" class="testimony__img" />
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+
+    <footer class="footer">
+        <div class="container footer__grid">
+            <nav class="nav nav--footer">
+                <a class="nav__items nav__items--footer" href="#">
+                    Inicio
+                </a>
+
+                <a class="nav__items nav__items--footer" href="#sobreMi">
+                    Sobre mi
+                </a>
+
+                <a class="nav__items nav__items--footer" href="#misSkills">
+                    Mis skills
+                </a>
+
+                <a class="nav__items nav__items--footer" href="#proyectos">
+                    Proyecto
+                </a>
+            </nav>
+
+            <section class="footer__contact">
+                <h3 class="footer__title">Contactame</h3>
+
+                <div class="footer__icons">
+                    <span class="footer__container-icon">
+                        <a href="https://www.facebook.com/mario.cortezcortes/" class="fab fa-facebook footer__icon"
+                            target="_blank"></a>
+                    </span>
+
+                    <span class="footer__container-icon">
+                        <a href="https://wa.me/527445288302" class="fab fa-whatsapp footer__icon" target="_blank"></a>
+                    </span>
+
+                    <span class="footer__container-icon">
+                        <a href="https://github.com/Mario1613?tab=repositories" class="fab fa-github footer__icon"
+                            target="_blank"></a>
+                    </span>
+                </div>
+            </section>
+        </div>
+    </footer>
+
+
+    <section class="modal">
+
+        <div class="modal__container">
+
+            <div class="documento">
+
+                <aside class="bg__azul">
+
+                    <img src="/img/Perfil2.jpg" class="modal__img">
+
+                    <div class="bg__azul__ocultar">
+
+                        <hr />
+
+                        <div class="tecnologias">
+
+                            <section class="color">
+
+                                <div class="flex-row-bg">
+                                    <i class="far fa-solid fa-user"></i>
+
+                                    <p class="blanco espacio">
+                                        Información Personal
+                                    </p>
+                                </div>
+
+                            </section>
+
+                            <section class="color">
+
+                                <div class="flex-row-bg">
+                                    <i class="far fa-solid fa-house"></i>
+
+                                    <p class="blanco espacio">
+                                        Acapulco de Juárez, Guerrero
+                                    </p>
+                                </div>
+
+                            </section>
+
+                            <section class="color">
+
+                                <div class="flex-row-bg">
+                                    <i class="far fa-solid fa-envelope"></i>
+
+                                    <p class="blanco espacio correo">
+                                        mariojhaziel25@gmail.com
+                                    </p>
+                                </div>
+
+                            </section>
+
+                            <section class="color">
+
+                                <div class="flex-row-bg">
+                                    <i class="far fa-solid fa-mobile"></i>
+
+                                    <p class="blanco espacio">
+                                        744 528 8302
+                                    </p>
+                                </div>
+
+                            </section>
+
+                            <hr />
+
+                            <section class="color">
+
+                                <div class="flex-row-bg">
+
+                                    <i class="far fa-solid fa-circle-check"></i>
+
+                                    <p class="blanco espacio">
+                                        Habilidades y Tecnologías
+                                    </p>
+
+                                </div>
+
+                                <br />
+
+                                <ul class="about__text">
+
+                                    <li class="mb punto">
+                                        Frontend Development
+                                    </li>
+
+                                    <li class="mb punto">
+                                        Móvil Development
+                                    </li>
+
+                                    <li class="mb punto">
+                                        HTML5
+                                    </li>
+
+                                    <li class="mb punto">
+                                        CSS3
+                                    </li>
+
+                                    <li class="mb punto">
+                                        JavaScript
+                                    </li>
+
+                                    <li class="mb punto">
+                                        TypeScript
+                                    </li>
+
+                                    <li class="mb punto">
+                                        React.js
+                                    </li>
+
+                                    <li class="mb punto">
+                                        Next.js
+                                    </li>
+
+                                    <li class="mb punto">
+                                        React Native
+                                    </li>
+
+                                    <li class="mb punto">
+                                        Expo
+                                    </li>
+
+                                    <li class="mb punto">
+                                        Redux Toolkit
+                                    </li>
+
+                                    <li class="mb punto">
+                                        Firebase
+                                    </li>
+
+                                    <li class="mb punto">
+                                        Node.js
+                                    </li>
+
+                                    <li class="mb punto">
+                                        Express.js
+                                    </li>
+
+                                    <li class="mb punto">
+                                        JWT Authentication
+                                    </li>
+
+                                    <li class="mb punto">
+                                        PostgreSQL
+                                    </li>
+
+                                    <li class="mb punto">
+                                        MongoDB
+                                    </li>
+
+                                    <li class="mb punto">
+                                        Material UI
+                                    </li>
+
+                                    <li class="mb punto">
+                                        REST APIs
+                                    </li>
+
+                                    <li class="mb punto">
+                                        Google Maps API
+                                    </li>
+
+                                    <li class="mb punto">
+                                        Git & GitHub
+                                    </li>
+
+                                </ul>
+
+                            </section>
+
+                            <hr />
+
+                            <section class="color">
+
+                                <div class="flex-row-bg">
+
+                                    <i class="far fa-solid fa-angles-down"></i>
+
+                                    <p class="blanco espacio">
+                                        Herramientas y Plataformas
+                                    </p>
+
+                                </div>
+
+                                <br />
+
+                                <ul class="about__text">
+
+                                    <li class="mb punto">
+                                        Visual Studio Code
+                                    </li>
+
+                                    <li class="mb punto">
+                                        Android Studio
+                                    </li>
+
+                                    <li class="mb punto">
+                                        Postman
+                                    </li>
+
+                                    <li class="mb punto">
+                                        Swagger
+                                    </li>
+
+                                    <li class="mb punto">
+                                        Firebase Console
+                                    </li>
+
+                                    <li class="mb punto">
+                                        Linux Terminal
+                                    </li>
+
+                                    <li class="mb punto">
+                                        Ubuntu Linux
+                                    </li>
+
+                                    <li class="mb punto">
+                                        GitHub
+                                    </li>
+
+                                    <li class="mb punto">
+                                        Figma
+                                    </li>
+
+                                    <li class="mb punto">
+                                        Inglés técnico
+                                    </li>
+
+                                </ul>
+
+                            </section>
+
+                        </div>
+
+                    </div>
+
+                </aside>
+
+                <div class="bg__info">
+
+                    <section>
+
+                        <h2 class="modal__title">
+                            MARIO JHAZIEL CORTEZ CORTÉS
+                        </h2>
+
+                        <h3 class="carrera">
+                            Frontend & móvil Developer
+                        </h3>
+
+                        <p class="parrafo__cv">
+
+                            Desarrollador Frontend y móvil apasionado por la creación
+                            de aplicaciones modernas, escalables y eficientes.
+                            Tengo experiencia desarrollando proyectos web y móviles
+                            utilizando React, Next.js, React Native, TypeScript y Firebase,
+                            participando tanto en frontend como backend.
+
+                            Me caracterizo por aprender rápidamente, adaptarme a nuevas
+                            tecnologías y mantenerme en constante crecimiento profesional.
+                            Disfruto desarrollar soluciones útiles, intuitivas y enfocadas
+                            en mejorar procesos reales.
+
+                        </p>
+
+                        <hr />
+
+                        <div class="flex-row">
+
+                            <i class="fas fa-graduation-cap"></i>
+
+                            <h3 class="sub__titulo">
+                                FORMACIÓN ACADÉMICA
+                            </h3>
+
+                        </div>
+
+                        <p class="sub__anios">
+                            2021 — 2025
+                        </p>
+
+                        <p class="parrafo__cv">
+                            Ingeniería en Sistemas Computacionales |
+                            Universidad Español
+                        </p>
+
+                        <p class="letras__chicas">
+
+                            Universidad privada con enfoque práctico y maestros
+                            con experiencia profesional activa en el sector tecnológico.
+                            Modalidad sabatina con horarios flexibles.
+
+                        </p>
+
+                        <p class="sub__anios">
+                            2018 — 2021
+                        </p>
+
+                        <p class="parrafo__cv">
+                            Técnico Programador |
+                            CECyTEG 04 Coloso Acapulco
+                        </p>
+
+                        <p class="sub__anios">
+                            Formación Continua
+                        </p>
+
+                        <div class="parrafo__cv">
+
+                            <p>
+                                Udemy, YouTube y plataformas online
+                            </p>
+
+                            <p class="letras__chicas">
+
+                                Formación constante en desarrollo web,
+                                desarrollo móvil, arquitectura frontend,
+                                backend y nuevas tecnologías.
+
+                            </p>
+
+                        </div>
+
+                        <hr />
+
+                        <div class="flex-row">
+
+                            <i class="fas fa-briefcase"></i>
+
+                            <h3 class="sub__titulo">
+                                EXPERIENCIA PROFESIONAL
+                            </h3>
+
+                        </div>
+
+                        <article>
+
+                            <p class="sub__anios">
+                                2025 — Actualidad
+                            </p>
+
+                            <p class="parrafo__cv">
+                                Frontend & móvil Developer |
+                                Proyectos Freelance
+                            </p>
+
+                            <p class="letras__chicas">
+
+                                Desarrollo de aplicaciones web y móviles que se llama Reporte Urbano utilizando
+                                React, Next.js, React Native, Expo y Firebase.
+                                Implementación de dashboards administrativos,
+                                sistemas de autenticación, mapas(leaflet, google maps api places y opencage para
+                                normalizar nombres), reportes,
+                                APIs REST y paneles de gestión.
+
+                            </p>
+
+                            <ul class="letras__chicas top__espacio">
+
+                                <li class="margen-izquierdo">
+                                    Desarrollo de aplicaciones móviles con React Native en cual se suben los reportes
+                                    con acceso a cámara y cordenadas.
+                                </li>
+
+                                <li class="margen-izquierdo">
+                                    Integración de Firebase Authentication y Firestore.
+                                </li>
+
+                                <li class="margen-izquierdo">
+                                    Implementación de Redux Toolkit para manejo de estado.
+                                </li>
+
+                                <li class="margen-izquierdo">
+                                    Desarrollo de dashboards administrativos y sistemas de reportes.
+                                </li>
+
+                                <li class="margen-izquierdo">
+                                    Consumo e integración de APIs REST.
+                                </li>
+
+                                <li class="margen-izquierdo">
+                                    Integración de mapas y geolocalización.
+                                </li>
+
+                            </ul>
+
+                        </article>
+                        <article>
+
+                            <p class="sub__anios">
+                                Enero 2025
+                            </p>
+
+                            <p class="parrafo__cv">
+                                Frontend Developer |
+                                Iglesia Pentelcostal: <a href="https://www.ipnjfiladelfia.com">ipnjfiladelfia.com</a>
+                            </p>
+
+                            <p class="letras__chicas">
+                                Desarrolle un CMS básico en Next.tsx, Typescript, Javascript, Redux, Material UI, y
+                                Firebase.
+                                Desarrolle la Pagina Principal para mostrar la Información de la institución, asi cómo
+                                el panel de administración para subir la informacion con sistema de autenticación
+                                firebase Autentication, Storage para el manejo de imagenes y firestore para la
+                                Información.
+                            </p>
+
+                            <ul class="letras__chicas top__espacio">
+
+                                <li class="margen-izquierdo">
+                                    Desarrollo de un CMS administrativo en Next.js y TypeScript para la gestión de
+                                    contenido institucional.
+                                </li>
+
+                                <li class="margen-izquierdo">
+                                    Implementación de autenticación segura con Firebase Authentication y manejo de
+                                    permisos de usuarios.
+                                </li>
+
+                                <li class="margen-izquierdo">
+                                    Integración de Firestore y Firebase Storage para almacenamiento de información e
+                                    imágenes.
+                                </li>
+
+                                <li class="margen-izquierdo">
+                                    Desarrollo de paneles administrativos responsivos utilizando Material UI y Redux
+                                    Toolkit.
+                                </li>
+
+                                <li class="margen-izquierdo">
+                                    Optimización de consumo de APIs REST y manejo global de estado en aplicaciones web.
+                                </li>
+
+                            </ul>
+
+                        </article>
+
+                        <article>
+
+                            <p class="sub__anios">
+                                Septiembre 2022 — Septiembre 2023
+                            </p>
+
+                            <p class="parrafo__cv">
+                                Frontend Developer |
+                                Importaciones Cámbricas S.A de C.V
+                            </p>
+
+                            <p class="letras__chicas">
+
+                                Desarrollo de aplicaciones empresariales y móviles
+                                enfocadas en puntos de venta, captura de códigos
+                                de barras y sistemas administrativos.
+
+                            </p>
+
+                            <ul class="letras__chicas top__espacio">
+
+                                <li class="margen-izquierdo">
+
+                                    Desarrollo frontend de un punto de venta con
+                                    React, TypeScript, Material UI y Redux.
+
+                                </li>
+
+                                <li class="margen-izquierdo">
+                                    Consumo de APIs documentadas mediante Swagger.
+                                </li>
+
+                                <li class="margen-izquierdo">
+
+                                    Desarrollo completo de aplicación Android para
+                                    captura de códigos de barras con perfiles de usuario.
+
+                                </li>
+
+                                <li class="margen-izquierdo">
+
+                                    Implementación con React Native,
+                                    Firebase y Redux.
+
+                                </li>
+
+                                <li class="margen-izquierdo">
+
+                                    Desarrollo de blog corporativo con localizador
+                                    de sucursales utilizando Google Maps API.
+
+                                </li>
+
+                                <li class="margen-izquierdo">
+
+                                    Participación en mantenimiento y ajustes
+                                    de proyectos existentes.
+
+                                </li>
+
+                            </ul>
+
+                        </article>
+
+                        <article>
+
+                            <p class="sub__anios">
+                                Septiembre 2022 - Diciembre 2022
+                            </p>
+
+                            <p class="parrafo__cv">
+                                Fullstack Developer |
+                                Proyecto Freelance
+                            </p>
+
+                            <p class="letras__chicas">
+
+                                Desarrollo de un blog profesional desde el diseño
+                                hasta el deployment utilizando Next, TypeScript,
+                                Strapi y MongoDB.
+
+                            </p>
+
+                            <ul class="letras__chicas top__espacio">
+
+                                <li class="margen-izquierdo">
+                                    Diseño y análisis de requerimientos.
+                                </li>
+
+                                <li class="margen-izquierdo">
+                                    Desarrollo backend con Strapi CMS y MongoDB.
+                                </li>
+
+                                <li class="margen-izquierdo">
+                                    Desarrollo frontend con React y TypeScript.
+                                </li>
+
+                                <li class="margen-izquierdo">
+                                    Manejo de rutas y consumo de APIs REST.
+                                </li>
+
+                            </ul>
+
+                        </article>
+
+                        <article>
+
+                            <p class="sub__anios">
+                                Junio 2022 — Septiembre 2022
+                            </p>
+
+                            <p class="parrafo__cv">
+                                Frontend Developer |
+                                Sitio Random Consultora(Freelance)
+                            </p>
+
+                            <p class="letras__chicas">
+                                Desarrollador React JR en una Consultora en Zapopan jalisco, trabajé en un proyecto de
+                                paquetería, el proyecto cuenta con Auth para tres tipos de usuario, las sesiones las
+                                maneje con react Router, context y los endpoints de aws congnito, me encargaba de
+                                consumir las API Rest de back y desarrollar vistas con React bootstrap, estuve
+                                arreglando bugs de proyectos previamente desarrollados por programadores anteriores,
+                                trabajaba como FreeLancer
+                            </p>
+
+                            <ul class="letras__chicas top__espacio">
+
+                                <li class="margen-izquierdo">
+                                    Desarrollo de interfaces frontend.
+                                </li>
+
+                                <li class="margen-izquierdo">
+                                    Refactorización y mantenimiento de código.
+                                </li>
+
+                                <li class="margen-izquierdo">
+                                    Corrección de bugs e implementación de mejoras.
+                                </li>
+
+                                <li class="margen-izquierdo">
+                                    Consumo de APIs REST.
+                                </li>
+
+                            </ul>
+
+                        </article>
+
+                    </section>
+
+                    <hr />
+
+                </div>
+
+            </div>
+
+            <div class="right">
+
+                <a href="https://drive.google.com/file/d/1FL-NTmjr238Y8WlSOXie2KaV_L363Z3G/view?usp=sharing"
+                    class="descargar">
+                    Descargar
+                </a>
+
+                <a href="#" class="modal__close">
+                    Cerrar
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <script src="js/main.js"></script>
+</body>
+
 </html>
