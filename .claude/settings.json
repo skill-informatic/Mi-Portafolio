@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install *)",
+      "Bash(python \"C:\\\\Users\\\\mario\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--Users-mario-Desktop-Mi-Portafolio\\\\49c255d8-ff2f-40fb-b3c0-e364590bd2bb\\\\scratchpad\\\\gen_favicon.py\")"
+    ]
+  }
+}
