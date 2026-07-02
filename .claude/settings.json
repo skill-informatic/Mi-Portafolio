@@ -2,7 +2,11 @@
   "permissions": {
     "allow": [
       "Bash(pip install *)",
-      "Bash(python \"C:\\\\Users\\\\mario\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--Users-mario-Desktop-Mi-Portafolio\\\\49c255d8-ff2f-40fb-b3c0-e364590bd2bb\\\\scratchpad\\\\gen_favicon.py\")"
+      "Bash(python \"C:\\\\Users\\\\mario\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--Users-mario-Desktop-Mi-Portafolio\\\\49c255d8-ff2f-40fb-b3c0-e364590bd2bb\\\\scratchpad\\\\gen_favicon.py\")",
+      "Bash(curl -s -D - -o /dev/null --max-time 15 https://ipnjfiladelfia.com/)",
+      "PowerShell(& \"C:\\\\Program Files \\(x86\\)\\\\Microsoft\\\\Edge\\\\Application\\\\msedge.exe\" --headless --disable-gpu --screenshot=\"C:\\\\Users\\\\mario\\\\Desktop\\\\Mi-Portafolio\\\\_preview_projects2.png\" --window-size=1400,900 \"http://127.0.0.1:8792/_preview_projects.html\")",
+      "Bash(rm -f _preview_projects.html _preview_projects.png _preview_projects2.png)",
+      "Bash(pkill -f \"http.server 879\")"
     ]
   }
 }
